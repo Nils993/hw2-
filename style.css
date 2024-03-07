@@ -1,0 +1,50 @@
+.slider-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.slider-flex {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 800px;
+  height: 550px;
+}
+
+button {
+  border: none;
+  display: block;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+.next {
+  background-image: url(./img/arrow-right-square-svgrepo-com.svg);
+  background-size: cover;
+}
+.prev {
+  background-image: url(./img/arrow-left-square-svgrepo-com.svg);
+  background-size: cover;
+}
+
+.indicators {
+  width: 950px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #ce1b1b;
+}
